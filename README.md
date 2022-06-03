@@ -41,3 +41,7 @@ Prediction은 Wide와 tall에 따른 2개의 다른 bounding boxes를 출력하�
 [..., 2:4] meaning -> [N, S, S, 25]
 
 <img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/dotdotdot.JPG" width="80%">
+
+[..., 24:25]로 인덱싱하면 하나의 matrix를 가져오면서 차원은 유지할 수 있다. [..., 24]로 하면 똑같은 값을 가지지만 차원이 줄어들게 된다.
+
+<img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/slicing.JPG" width="80%">
