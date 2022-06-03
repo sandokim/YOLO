@@ -22,4 +22,4 @@ Prediction은 Wide와 tall에 따른 2개의 다른 bounding boxes를 출력하�
 
 #### torch.flatten -> start_dim=1 ; (B, C, W, H)에서 Batch는 a number of examples이므로 제외하고 C,W,H차원으로 Flatten
 
-<img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/start_dim=1.JPG" width="50%">
+<img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/start_dim=1.JPG" width="80%">
