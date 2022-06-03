@@ -33,3 +33,7 @@ Prediction은 Wide와 tall에 따른 2개의 다른 bounding boxes를 출력하�
 최종적으로 nn.Sequential에 *를 사용하여 list안에 들어있는 모든 Layers들을 Unpack
 
 <img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/unpacklayers.JPG" width="80%">
+
+#### 0~19 class, 20번째 index=class probability, class probability를 indexing하면 차원이 하나 줄어들기 때문에 이를 다시 복원하기 위해 unsqueeze(3)을 해준다.
+
+<img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/Yolo_Loss.JPG" width="80%">
