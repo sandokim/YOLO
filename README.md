@@ -10,7 +10,7 @@ Each cell의 bounding box의 [x,y,w,h]는 상대적이다. x,y는 0~1 사이값,
 
 Predictions will look very similar, but we will output two bounding boxes.
 
-Prediction은 Wide와 tall에 따른 2개의 다른 bounding boxes를 출력하기 때문에  1 probability score + bounding box(4 parameters)가 2개 이다.
+Prediction은 Wide와 tall에 따른 2개의 다른 bounding boxes를 출력하기 때문에  1 probability score + bounding box(4 parameters)가 2개이다.
 
 <img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/predcell.JPG" width="50%">
 
