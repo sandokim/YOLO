@@ -29,3 +29,7 @@ Prediction은 Wide와 tall에 따른 2개의 다른 bounding boxes를 출력하�
 <img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/config.JPG" width="80%">
 
 <img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/config2model.JPG" width="80%">
+
+최종적으로 nn.Sequential에 list안에 들어있는 모든 Layers들을 Unpack
+
+<img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/unpacklayers.JPG" width="80%">
