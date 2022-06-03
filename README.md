@@ -18,4 +18,4 @@ Prediction은 Wide와 tall에 따른 2개의 다른 bounding boxes를 출력하�
 
 #### 20 different classes + 2 * (1 probability score + bounding box(x,y,w,h : 4 parameters))
 
-<img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/predcell.JPG" width="50%">
+<img src="https://github.com/hyeseongkim0/YOLO/blob/main/images/target_prediction.JPG" width="50%">
